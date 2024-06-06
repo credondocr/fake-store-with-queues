@@ -34,8 +34,11 @@ fake-store-with-queues
 ## Prerequisites
 
 - Go 1.16 or higher
-- RabbitMQ server running locally (`amqp://guest:guest@localhost:5672/`)
-- Try using a tier free Cloudmqp instance !!
+- Docker
+- RabbitMQ server running locally (`amqp://guest:guest@localhost:5672/`), you can run via docker
+```sh
+docker-compose up -d
+```
 
 ## Getting Started
 
